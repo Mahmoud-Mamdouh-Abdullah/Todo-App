@@ -36,7 +36,7 @@ function showTodos(todos) {
     singlediv.classList.add('singleTodo');
     singlediv.innerHTML = `${todo.name}<img src="delete_bin.png" alt="delete" data-timeStamp=${todo.timestamp} class="delete" width="24px" height="24px">`;
     addBackgroundToDiv(todo.important, todo.urgent, singlediv);
-    fragment.append()
+    fragment.append(singlediv);
   }
   todosContainer.appendChild(fragment);
 }
