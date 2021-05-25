@@ -6,4 +6,4 @@ Using HTML, CSS, Javascript and dynamically add the todo note from the Javascrip
 
 ## The Page Screen </br>
 
-<img src="https://user-images.githubusercontent.com/49378579/118925254-b32b4380-b93e-11eb-9c08-e8c47890cac2.PNG">
+<img src="https://user-images.githubusercontent.com/49378579/119567374-89de3d80-bdac-11eb-8885-ae8510b1f480.gif">
