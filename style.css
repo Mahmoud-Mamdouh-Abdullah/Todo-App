@@ -8,12 +8,7 @@ body{
 .navbar-brand{
   padding-left: 10px;
 }
-header {
-  text-align: center;
-  background-color: #4CAF50;
-  color: white;
-  font-family: 'Courier New', Courier, monospace;
-}
+
 
 #main-content {
   width: 100%;
@@ -92,3 +87,13 @@ label{
 .singleTodo img{
   float: right;
 }
+
+
+@media (max-width: 768px){ 
+  #label_todo{
+    font-size: 1em;
+  }
+  textarea{
+    font-size: 1em;
+  }
+ }
