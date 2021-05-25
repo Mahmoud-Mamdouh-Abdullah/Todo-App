@@ -10,8 +10,9 @@ const fragment = document.createDocumentFragment();
 
 addTodoBtn.addEventListener('click', function (event) {
   event.preventDefault();
-  if(!todo.value) {
-    return;
+  if (!todo.value || isNullOrWhiteSpace(todo.value)) {
+    alert('Please Enter a valid note')
+    todo.value = '';
   } else {
     const todo = {
       name: todoInputText.value,
@@ -29,6 +30,10 @@ addTodoBtn.addEventListener('click', function (event) {
     showTodos(todos);
   }
 });
+
+function isNullOrWhiteSpace(str) {
+  return (!str || str.length === 0 || /^\s*$/.test(str))
+}
 
 function showTodos(todos) {
   for(const todo of todos) {
